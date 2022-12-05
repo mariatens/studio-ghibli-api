@@ -77,6 +77,6 @@ app.get("/films", (req, res) => {
 //   }
 // });
 
-// app.listen(PORT_NUMBER, () => {
-//   console.log(`Server is listening on port ${PORT_NUMBER}!`);
-// });
+app.listen(PORT_NUMBER, () => {
+  console.log(`Server is listening on port ${PORT_NUMBER}!`);
+});
