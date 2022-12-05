@@ -1,15 +1,13 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import films from './data.json'
 import {
   // addDbItem,
   getAllDbItems,
   // getDbItemById,
-  DbItem,
+  // DbItem,
   // updateDbItemById,
 } from "./db";
-import filePath from "./filePath";
 
 // loading in some dummy items into the database
 // (comment out if desired, or change the number)

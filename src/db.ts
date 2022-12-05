@@ -28,7 +28,7 @@ import films from './data.json'
 const db = films;
 
 /** Variable to keep incrementing id of database items */
-let idCounter = 0;
+// let idCounter = 0;
 
 /**
  * Adds in some dummy database items to the database
